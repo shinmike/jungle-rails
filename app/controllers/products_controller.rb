@@ -1,6 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
+    # byebug 
     @products = Product.all.order(created_at: :desc)
   end
 
