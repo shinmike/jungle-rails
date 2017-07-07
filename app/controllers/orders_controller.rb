@@ -53,6 +53,9 @@ class OrdersController < ApplicationController
       end
     end
     order.save!
+
+    InvoiceMailer.invoice_email(order).deliver_now
+
     order
   end
 
