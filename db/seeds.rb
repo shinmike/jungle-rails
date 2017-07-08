@@ -132,6 +132,30 @@ cat3.products.create!({
   price: 2_483.75
 })
 
+## USERS
+
+puts "Creating fake users"
+
+User.destroy_all
+
+User.create!({
+  name: 'Bob',
+  email: 'bob@bob.com',
+  password_digest: 'bobbysox',
+})
+
+User.create!({
+  name: 'Jill',
+  email: 'jill@jill.com',
+  password_digest: "jillbarber",
+})
+
+User.create!({
+  name: 'Groot',
+  email: 'groot@groot.com',
+  password_digest: "iamgroot",
+})
+
 ## REVIEWS
 
 puts "Creating fake reviews..."
@@ -145,14 +169,14 @@ review1 = Review.create({
 
 review2 = Review.create({
   product_id: 2,
-  user_id: 3,
+  user_id: 1,
   description: "superb",
   rating: 4
 })
 
 review3 = Review.create({
   product_id: 3,
-  user_id: 4,
+  user_id: 1,
   description: "wonderful",
   rating: 3
 })
