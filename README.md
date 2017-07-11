@@ -5,16 +5,16 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 ## Final Product
 
 Home page
-!["Screenshot of home page"](https://github.com/drhaliburton/Fetch/blob/master/docs/fetch-home.png)
+!["Screenshot of home page"](https://github.com/shinmike/jungle-rails/blob/master/docs/jungle-home.png)
 
 Comments
-!["Screenshot of comments"](https://github.com/drhaliburton/Fetch/blob/master/docs/fetch-comments.png)
+!["Screenshot of comments"](https://github.com/shinmike/jungle-rails/blob/master/docs/jungle-comment.png)
 
 Shopping cart
-!["Screenshot of shopping cart"](https://github.com/drhaliburton/Fetch/blob/master/docs/fetch-profile.png)
+!["Screenshot of shopping cart"](https://github.com/shinmike/jungle-rails/blob/master/docs/jungle-order.png)
 
 Order confirmation
-!["Screenshot of order confirmation"](https://github.com/drhaliburton/Fetch/blob/master/docs/fetch-profile.png)
+!["Screenshot of order confirmation"](https://github.com/shinmike/jungle-rails/blob/master/docs/jungle-order-confirm.png)
 
 
 ## Setup
