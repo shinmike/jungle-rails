@@ -2,6 +2,20 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+
+Home page
+!["Screenshot of home page"](https://github.com/drhaliburton/Fetch/blob/master/docs/fetch-home.png)
+
+Comments
+!["Screenshot of comments"](https://github.com/drhaliburton/Fetch/blob/master/docs/fetch-comments.png)
+
+Shopping cart
+!["Screenshot of shopping cart"](https://github.com/drhaliburton/Fetch/blob/master/docs/fetch-profile.png)
+
+Order confirmation
+!["Screenshot of order confirmation"](https://github.com/drhaliburton/Fetch/blob/master/docs/fetch-profile.png)
+
 
 ## Setup
 
